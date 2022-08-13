@@ -6,6 +6,8 @@ A home for all trading analytics, POC agents, indicator generators, supervised m
 
 - Bollinger Bands
 - 9 EMA and 20 EMA divergence
+- Scalping
+- Support and Resistance
 
 
 ## Resources
