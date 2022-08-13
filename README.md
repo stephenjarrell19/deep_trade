@@ -27,6 +27,10 @@ Trying to create a NN that can look at a chart over multiple time frames, and it
 
 **Use R-values as optimization metrics.**
 
+## Data Needs
+- Order Flow
+- Open, Close, High, Low
+- 
 ## Resources
 Transformer-Based Capsule Network For Stock Movements Prediction: https://aclanthology.org/W19-5511.pdf
 QuantConnect (real-time data): https://www.quantconnect.com/?gclid=CjwKCAjw9NeXBhAMEiwAbaY4lis7p7lLTI_tgP8ZRj7LFL9nO84oagiMFyPmuoHcSyzrmt_SxoxDJRoCwdkQAvD_BwE
