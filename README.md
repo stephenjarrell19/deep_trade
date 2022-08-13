@@ -5,7 +5,7 @@ A home for all trading analytics, POC agents, indicator generators, supervised m
 
 ##  Motivation
 
-Develop a bot that does not trade for breakouts, but trades to minimize risk and optimize for R-values.
+Develop a bot that can identify support and resistance levels and optimize for R-values. The goal is not to develop a model that trades for breakouts, but instead a model that trades to minimize risk and maximize R.
 
 ## Proofs of Concept (POCs)
 
