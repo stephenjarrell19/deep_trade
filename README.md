@@ -12,7 +12,7 @@ Develop a bot that can **identify support and resistance levels** and optimize R
 The goal is not to develop a model that trades for breakout wins, but instead a model that trades on support and resistance trends, buying at support and selling in any margin between the buying price and resistance. The margin is an area, and the selling price within that margin can be decided based upon some quantity of acceptable risk. A high risk tolerance could attempt to maximize positive R-values, while a lower risk tolerance agent would simply take home the easy profit (small R-values).
 
 ### What are R-values?
-
+https://smartforexlearning.com/risk-r-and-r-multiples-explained/
 
 ## Implementation Brainstorming
 
@@ -36,9 +36,11 @@ Trained on Human_trader strategy, using "When x happens, you can buy and sell at
 - Open, Close, High, Low
 
 ## Resources
+### Core
+R-Values Explained: https://smartforexlearning.com/risk-r-and-r-multiples-explained/
+### Misc
 Transformer-Based Capsule Network For Stock Movements Prediction: https://aclanthology.org/W19-5511.pdf
 QuantConnect (real-time data): https://www.quantconnect.com/?gclid=CjwKCAjw9NeXBhAMEiwAbaY4lis7p7lLTI_tgP8ZRj7LFL9nO84oagiMFyPmuoHcSyzrmt_SxoxDJRoCwdkQAvD_BwE
-
 How to Day Trade youtube playlist: https://www.youtube.com/playlist?list=PLBQ51w5jhEqVx9r9siB3GgB9YKj-KaKLP
 
 
