@@ -2,14 +2,22 @@
 
 A home for all trading analytics, POC agents, indicator generators, supervised modeling, and reinforcement learning / policy learning.
 
-##  Motivation
+##  Proof Of Concept
 
-Develop a bot that can identify support and resistance levels and optimize for R-values. The goal is not to develop a model that trades for breakouts, but instead a model that trades to minimize risk and maximize R.
+Develop a bot that can **identify support and resistance levels** and optimize R-values. 
 
-## Proof of Concept 
+![display_text](https://user-images.githubusercontent.com/49171243/184468830-276380a0-9767-4185-a56b-460a0a16c6ac.jpg)
+
+### Customizable to Risk Tolerance
+The goal is not to develop a model that trades for breakout wins, but instead a model that trades on support and resistance trends, buying at support and selling in any margin between the buying price and resistance. The margin is an area, and the selling price within that margin can be decided based upon some quantity of acceptable risk. A high risk tolerance could attempt to maximize R-values, while a lower risk tolerance agent would simply take home the easy profit (small R-values).
+
+### What are R-values?
+
+
+## Implementation Brainstorming
 
 Create a very accurate neural network for identifying ONLY support and resistance levels. If you can draw a border that can identify the box of support and resistance on any given stock (based on its historical data) consistently, then match that across different time frames, with a high degree of accuracy, then optimize for Risk to Reward values (R).
-## Implementation ideas
+
 ### SnR Charter
 Trying to create a NN that can look at a chart over multiple time frames, and it needs to be able to: 
   1. Draw support and resistance areas
@@ -26,7 +34,7 @@ Trained on Human_trader strategy, using "When x happens, you can buy and sell at
 ## Data Needs
 - Order Flow
 - Open, Close, High, Low
-- 
+
 ## Resources
 Transformer-Based Capsule Network For Stock Movements Prediction: https://aclanthology.org/W19-5511.pdf
 QuantConnect (real-time data): https://www.quantconnect.com/?gclid=CjwKCAjw9NeXBhAMEiwAbaY4lis7p7lLTI_tgP8ZRj7LFL9nO84oagiMFyPmuoHcSyzrmt_SxoxDJRoCwdkQAvD_BwE
