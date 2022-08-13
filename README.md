@@ -9,7 +9,7 @@ Develop a bot that can **identify support and resistance levels** and optimize R
 ![display_text](https://user-images.githubusercontent.com/49171243/184468830-276380a0-9767-4185-a56b-460a0a16c6ac.jpg)
 
 ### Customizable to Risk Tolerance
-The goal is not to develop a model that trades for breakout wins, but instead a model that trades on support and resistance trends, buying at support and selling in any margin between the buying price and resistance. The margin is an area, and the selling price within that margin can be decided based upon some quantity of acceptable risk. A high risk tolerance could attempt to maximize R-values, while a lower risk tolerance agent would simply take home the easy profit (small R-values).
+The goal is not to develop a model that trades for breakout wins, but instead a model that trades on support and resistance trends, buying at support and selling in any margin between the buying price and resistance. The margin is an area, and the selling price within that margin can be decided based upon some quantity of acceptable risk. A high risk tolerance could attempt to maximize positive R-values, while a lower risk tolerance agent would simply take home the easy profit (small R-values).
 
 ### What are R-values?
 
