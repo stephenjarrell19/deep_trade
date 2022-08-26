@@ -43,6 +43,7 @@ WaveNet Time Series Prediction: https://arxiv.org/pdf/1609.03499.pdf
 Transformer-Based Capsule Network For Stock Movements Prediction: https://aclanthology.org/W19-5511.pdf
 QuantConnect (real-time data): https://www.quantconnect.com/?gclid=CjwKCAjw9NeXBhAMEiwAbaY4lis7p7lLTI_tgP8ZRj7LFL9nO84oagiMFyPmuoHcSyzrmt_SxoxDJRoCwdkQAvD_BwE
 How to Day Trade youtube playlist: https://www.youtube.com/playlist?list=PLBQ51w5jhEqVx9r9siB3GgB9YKj-KaKLP
+Deep RL applied to crypto and stock trading: https://www.youtube.com/watch?v=A3eWVrM3cvI
 
 ### Models
 WaveNet Time Series Prediction: https://arxiv.org/pdf/1609.03499.pdf
